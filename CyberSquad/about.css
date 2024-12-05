@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0%;
+    
+}
+body{
+    background-color: black;
+     
+}
+
+
+
+nav {
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    border: 2px;
+    border-color: aqua;
+    border-style: ridge;
+}
+
+.nav-link{
+    justify-content: space-around;
+}
+
+.nav-link:hover{
+    border: 2px;
+    border-color: aqua;
+    border-style: solid;
+    position: sticky;
+}
+
+
+.cbanner{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+}
+
+video{
+    position: absolute;
+    width: 69%;
+    margin-left: 30%;
+    
+}
+
+.top{
+    position: absolute;
+    margin-right: 70%;
+    padding-top: 1%;
+    padding-bottom: 100%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background: transparent;
+    width: 40%;
+    height: 20%;
+    z-index: 10;
+    
+}
+
+.vname{
+    color: rgb(136, 204, 244);
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family: sans-serif;   
+}
+
+.vpara{
+    color: rgb(136, 204, 244);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 125%;
+    width: auto;
+    padding-left: 10%;
+    opacity: 1;
+}
+
+.bton{
+    background-color: rgb(36, 74, 112);
+    width: 35%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 50%;
+    color: aqua;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.bton:hover{
+    border: 25%;
+    border-color: aquamarine;
+    border-style: ridge;
+}
+
+.fsechead{
+    color: aqua;
+    justify-content: center;
+    text-align: center;
+    margin-top: 39%;
+    text-decoration: underline;
+}
+
+.info{
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2%;
+    background-color: black;
+    border: 2px;
+    border-color: aqua;
+    border-style: ridge;
+    width: 80%;
+    display: flex;
+}
+
+.infopara{
+    font-size: 20px;
+    color: aqua;
+    width: 50%;
+}
+
+.infoimg{
+    padding-left: 50%;
+}
+
+.infos{
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2%;
+    margin-bottom: 5%;
+    background-color: black;
+    border: 2px;
+    border-color: aqua;
+    border-style: ridge;
+    width: 80%;
+    display: flex;
+}
+
+.infosimg{
+    padding-left: 7%;
+}
+
+.infoparas{
+    padding-left: 5%;
+    font-size: 20px;
+    color: aqua;
+    width: 50%;
+
+}
+
+.slast{
+    background-color: rgb(27, 29, 52);
+    border: 2px;
+    border-color: aqua;
+    border-style:dashed;
+    width: auto;
+    color: rgb(5, 116, 180);
+    font-size: large;
+    padding-left: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+
+.foothead{
+    color: aqua;
+    margin-left: 10%;
+    margin-top: 0%;
+    padding-top: 2%;
+    text-decoration: underline;
+}
+
+.pages{
+    width: 5%;
+    margin-left: 25%;
+    padding: 2%;
+    background-color: rgb(19, 22, 33);
+    width: 80%;
+    text-align: justify;
+    justify-content: start;
+    font-size: x-large;
+}
+
+.ul:hover{
+    color: rgb(4, 255, 121);
+}
+
+.copyright{
+    color: rgb(0, 146, 146);
+    margin-left: 40%;
+    padding-bottom: 2%;
+}
+
+
+@media (max-width: 768px) {
+    /* Styles for tablets and mobile devices */
+    .nav{
+        width: 768px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    /* Styles for small desktop screens */
+}
+
+@media (min-width: 1201px) {
+    /* Styles for large desktop screens */
+}
